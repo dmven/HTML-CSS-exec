@@ -1,0 +1,77 @@
+/* Внешний вид*/
+body {
+	background-color: #f8f8f8
+}
+
+.mainmenu {
+	/*color: red;*/
+	font-size: 18px;
+	font-style: bold;
+	list-style-type: none;
+	font-family: arial;
+
+}
+
+.nounderline{
+	text-decoration: none;
+
+}
+
+.hshortterms,
+.hcharact,
+.hfullterms,
+.hadress {
+	color: black;
+	font-size: 18px;
+	font-weight: 400px;
+	background-color: #eaeaea
+}
+
+.shortterms {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+
+.charact {
+
+
+}
+
+.fullterms {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	width: 80%;
+}
+
+.imgflower {
+	width: 200;
+	margin: 20px auto;
+	vspace: 10px;
+
+}
+
+.contactsform{
+	width: 1000px;
+}
+
+.submitbuttn {
+	margin-top: 5px;
+}
+
+.inputfield{
+	padding: 5px;
+	margin-top: 5px;
+
+}
+
+.subject{
+	font-style: italic bold;
+	font-size: 120%;
+	color: green;
+}
