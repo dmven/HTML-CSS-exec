@@ -12,6 +12,10 @@ body {
 
 }
 
+.mainmenu li a:hover{
+	color: #0ED433;
+}
+
 .nounderline{
 	text-decoration: none;
 
