@@ -33,16 +33,35 @@ body {
 
 .shortterms {
 	color: #707070;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 	line-height: 16px;
 }
 
 
 .charact {
-
-
+	border: 1px solid #000;
+	border-collapse: collapse;
 }
+
+.catalog > td:hover {
+	border: none;
+}
+
+td {
+	padding: 3px;
+	border: 1px solid #6A3E14;
+}
+
+td:first-of-type{
+	font-style: bold;
+	/*background: #CFD6D3;*/
+}
+
+.charact > tr > td {
+	font-style: bold;
+}
+
 
 .fullterms {
 	color: #484343;
@@ -51,6 +70,12 @@ body {
 	line-height: 24px;
 	text-align: left;
 	width: 80%;
+}
+
+.fullterms > p:first-letter,
+.shortterms:first-letter {
+	font-size: 20px;
+	color: red;
 }
 
 .imgflower {
@@ -68,10 +93,19 @@ body {
 	margin-top: 5px;
 }
 
-.inputfield{
+input {
 	padding: 5px;
 	margin-top: 5px;
+	
+}
 
+.email:focus {
+	background-color: #FFFFBB;
+	color: #FF41FF;
+}
+
+input {
+	text-transform: capitalize;
 }
 
 .subject{
